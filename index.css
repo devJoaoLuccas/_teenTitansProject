@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=PT+Sans&family=Titan+One&display=swap');
 
 * { 
     margin: 0;
@@ -51,12 +51,30 @@ body {
     align-items: center;
     padding: 30px;
 }
-.section-main-write-title {
+
+.section-history {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+.section-main-title {
     font-family: 'Titan One', 'sans serif';
     font-size: 45px;
     color:#fbb611;
     -webkit-text-stroke: 0.8px #000;
+    margin-bottom: 5px;
 
+}
+
+.section-main-subtitle {
+    font-family: 'Changa One', 'sans serif';
+    color: #fbb611;
+    font-size: 35px;   
+    font-weight: 800;
+    -webkit-text-stroke: 0.8px #000;
 }
 
 .section-main-figure { 
@@ -68,12 +86,83 @@ body {
     display: flex;
     gap: 30px;
     flex-direction: column;
-    padding: 200px;
-    border-top: 2px solid #000;
+    padding: 120px;
 }
+
+.section-history-secundary {
+    padding: 120px;    
+
+}
+
+.section-history-secundary-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.section-history-secundary-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    margin-top: 35px;
+}
+
+.section-history-secundary-one-text {
+    font-family: 'PT Sans', 'Arial';
+    font-size: 25px;
+    text-align: justify;
+    text-justify: auto;
+    font-weight: 500;
+}
+
+
+.section-history-secundary-one-image {
+    height: 400x;
+    width: 300px;
+    border: 3px solid #000;
+}
+
 
 .section-secundary-text {
     font-family: 'PT Sans', 'Arial';
     font-size: 18px;
+    text-align: justify;
+    text-justify: auto;
+    font-weight: 500;
+}
+
+.section-secundary-text-border {
+        font-family: 'PT Sans', 'Arial';
+        font-size: 18px;
+        text-align: justify;
+        text-justify: auto;
+        padding-top: 50px;
+        font-weight: 500;
+        border-top: 3px solid #000;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #04243c;
+}
+
+.footer-text {
+    font-family: 'PT sans', 'Sans serif';
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
     text-justify: auto;
 }
+
+
+

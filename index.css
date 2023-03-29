@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Titan+One&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body { 
+    font-size: 100px;
+    background: rgb(0,172,239);
+        background: linear-gradient(0deg, rgba(0,172,239,1) 0%, rgba(237,27,36,1) 100%);
+
+}
+
+.navbar { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #04243c;
+    padding: 15px;
+}
+
+.navbar-logo {
+    height: 80px;
+    width: 100px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.navbar-menu-anchors {
+    font-family: 'Titan One', 'Sans Serif';
+    font-size: 18px;
+    color: #0A92D0;
+}
+
+.section {
+    margin-bottom: 70px;
+}   
+
+.section-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.section-main-write-title {
+    font-family: 'Titan One', 'sans serif';
+    font-size: 45px;
+    color:#fbb611;
+    -webkit-text-stroke: 0.8px #000;
+
+}
+
+.section-main-figure { 
+    height: 500px;
+    width: 500px;
+}
+
+.section-secundary {
+    gap: 10px;
+    padding: 50px;
+}
+
+.section-secundary-text {
+    display: flex;
+    gap: 10px;
+    font-family: 'PT', 'Arial';
+    font-size: 18px;
+    text-justify: auto;
+}

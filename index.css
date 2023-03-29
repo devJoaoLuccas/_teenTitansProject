@@ -40,7 +40,7 @@ body {
 }
 
 .section {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }   
 
 .section-main {
@@ -65,14 +65,15 @@ body {
 }
 
 .section-secundary {
-    gap: 10px;
-    padding: 50px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 200px;
+    border-top: 2px solid #000;
 }
 
 .section-secundary-text {
-    display: flex;
-    gap: 10px;
-    font-family: 'PT', 'Arial';
+    font-family: 'PT Sans', 'Arial';
     font-size: 18px;
     text-justify: auto;
 }

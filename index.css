@@ -52,6 +52,11 @@ body {
     padding: 30px;
 }
 
+.section-titans {
+    padding: 80px;
+    gap: 30px;
+}
+
 .section-history {
     display: flex;
     flex-direction: column;
@@ -60,6 +65,7 @@ body {
     padding: 30px;
     gap: 30px;
 }
+
 .section-main-title {
     font-family: 'Titan One', 'sans serif';
     font-size: 45px;
@@ -69,12 +75,33 @@ body {
 
 }
 
+.section-titans-title {
+    padding-top: 30px;
+    font-family: 'Titan One', 'sans serif';
+    font-size: 55px;
+    color:#fbb611;
+    -webkit-text-stroke: 0.8px #000;
+}
+
 .section-main-subtitle {
     font-family: 'Changa One', 'sans serif';
     color: #fbb611;
     font-size: 35px;   
     font-weight: 800;
     -webkit-text-stroke: 0.8px #000;
+}
+
+.section-titans-subtitle {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    font-family: 'Changa One', 'sans serif';
+    color: #fbb611;
+    font-size: 28px;   
+    font-weight: 800;
+    -webkit-text-stroke: 0.8px #000;
+    margin-bottom: 80px;
 }
 
 .section-main-figure { 
@@ -137,6 +164,121 @@ body {
     font-weight: 500;
 }
 
+.section-titans-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    font-family: 'PT Sans', 'Arial';
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+    font-weight: 500;
+}
+
+.section-titans-list-text {
+    font-family: 'PT Sans', 'Arial';
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+    font-weight: 500; 
+    color: #000;
+}
+
+.section-titans-button01 {
+    border: none; 
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'PT Sans', 'Arial';
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color: #fbb611;
+    transition-duration: 0.4s;
+}
+
+.section-titans-button02 {
+    border: none; 
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'PT Sans', 'Arial';
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color: #fbb611;
+    transition-duration: 0.4s;
+}
+
+.section-titans-button03 {
+    border: none; 
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'PT Sans', 'Arial';
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color: #fbb611;
+    transition-duration: 0.4s;
+    margin-left: 8%;
+}
+
+.section-titans-button01:hover {
+    background-color: #0A92D0;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #fbb611;
+    font-weight: 800;
+}
+
+.section-titans-button02:hover {
+    background-color: #ed1b24;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #fbb611;
+    font-weight: 800;
+}
+
+.section-titans-button03:hover {
+    background-color: #ed1b24;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #fbb611;
+    font-weight: 800;
+}
+
+
+.section-titans-text-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-titans-text-image01 {
+    height: 300px;
+    width: 400px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.section-titans-text-image02 {
+    height: 400px;
+    width: 300px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.section-titans-text-image03 {
+    height: 400px;
+    width: 300px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.section-titans-text-image04 {
+    height: 400px;
+    width: 600px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+
 .section-secundary-text-border {
         font-family: 'PT Sans', 'Arial';
         font-size: 18px;
@@ -145,6 +287,26 @@ body {
         padding-top: 50px;
         font-weight: 500;
         border-top: 3px solid #000;
+}
+
+.section-titans-list01 {
+    display: flex;
+    padding: 0px 22px 0px 22px;
+    font-family: 'PT Sans', 'Arial';
+    font-size: 25px;
+    text-align: justify;
+    text-justify: auto;
+    font-weight: 500;
+}
+
+.section-titans-list02 {
+    display: flex;
+    padding: 82px 22px 0px 22px;
+    font-family: 'PT Sans', 'Arial';
+    font-size: 25px;
+    text-align: justify;
+    text-justify: auto;
+    font-weight: 500;
 }
 
 .footer {

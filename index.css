@@ -57,6 +57,16 @@ body {
     gap: 30px;
 }
 
+.section-villain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 30px;
+}
+
 .section-history {
     display: flex;
     flex-direction: column;
@@ -76,7 +86,7 @@ body {
 }
 
 .section-titans-title {
-    padding-top: 30px;
+    margin-top: 40px;
     font-family: 'Titan One', 'sans serif';
     font-size: 55px;
     color:#fbb611;
@@ -98,9 +108,19 @@ body {
     padding: 30px;
     font-family: 'Changa One', 'sans serif';
     color: #fbb611;
-    font-size: 28px;   
+    font-size: 35px;   
     font-weight: 800;
     -webkit-text-stroke: 0.8px #000;
+    margin-bottom: 80px;
+}
+
+.section-villain-subtitle {
+    font-family: 'Changa One', 'sans serif';
+    color: #fbb611;
+    font-size: 35px;   
+    font-weight: 800;
+    -webkit-text-stroke: 0.8px #000;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -173,6 +193,20 @@ body {
     font-family: 'PT Sans', 'Arial';
     font-size: 20px;
     text-align: justify;
+    text-justify: auto;
+    font-weight: 500;
+}
+
+.section-villain-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    padding: 30px;
+    margin-top: 40px;
+    font-family: 'PT Sans', 'Arial';
+    font-size: 20px;
     text-justify: auto;
     font-weight: 500;
 }
@@ -278,6 +312,54 @@ body {
     border-radius: 10px;
 }
 
+.section-villain-image01 {
+    height: 400px;
+    width: 300px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.section-villain-image02 {
+    height: 400px;
+    width: 350px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.section-villain-image03 {
+    height: 400px;
+    width: 500px;
+    border: 3px solid #FFF;
+    border-radius: 10px;
+}
+
+.section-villain-image04 {
+    height: 400px;
+    width: 400px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.section-villain-image05 {
+    height: 400px;
+    width: 500px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.section-villain-image06 {
+    height: 400px;
+    width: 300px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.section-villain-image07 {
+    height: 400px;
+    width: 300px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
 
 .section-secundary-text-border {
         font-family: 'PT Sans', 'Arial';
